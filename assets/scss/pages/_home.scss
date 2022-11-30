@@ -1,0 +1,72 @@
+body {
+	background-color: $bg_color !important;
+}
+.card {
+	background: $primary_color !important;
+	text-align: center;
+	padding: 25px 0px;
+
+	h2 {
+		color: $font_color;
+		font-size: 29px;
+		font-family: "Noto Sans", sans-serif;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.form-label {
+		color: $font_color;
+		font-size: 20px;
+		font-weight: 400;
+		font-family: raleway;
+	}
+	input {
+		background-color: $primary_color;
+		box-shadow: 10px 10px 10px -10px rgba(51, 138, 150, 0.74),
+			-10px -10px 10px -10px rgba(219, 228, 230, 0.7);
+		margin: 10px auto;
+		box-sizing: border-box;
+		width: 75%;
+		display: block;
+		font-family: "Noto Sans", sans-serif;
+		cursor: pointer;
+	}
+	input[type="submit"] {
+		border: none;
+		padding: 10px;
+		border-radius: 5px;
+		color: #fff;
+		font-size: 20px;
+		font-family: "Noto Sans", sans-serif;
+		margin-top: 25px !important;
+		background-color: $theme_color;
+		transition: 0.3s;
+		&:hover {
+			background-color: $hover_color;
+		}
+	}
+	p {
+		color: $font_color;
+		font-family: raleway;
+		font-size: 20px;
+	}
+	span {
+		color: $font_color;
+		font-family: "Noto Sans", sans-serif;
+	}
+	.validation {
+		text-align: center;
+		p {
+			font-family: raleway;
+			font-size: 18px;
+			text-align: center;
+			width: 75%;
+			display: block;
+			margin: auto;
+			padding: 7px 10px;
+			button {
+				float: right;
+				font-size: 14px;
+			}
+		}
+	}
+}
